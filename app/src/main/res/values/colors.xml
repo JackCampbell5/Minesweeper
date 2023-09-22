@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="defult_Color">#000000</color>
+    <color name="home_Background_Color">#03DAC5</color>
+    <color name="easy_Background_Color">#03DA27</color>
+    <color name="block_Color_1">#C1F436</color>
+    <color name="block_Color_2">#85A826</color>
+    <color name="playStartBackground">#A9818181</color>
+    <color name="playBackgroundColor">#FFFFFF</color>
+    <color name="playBlue1">#0044FF</color>
+    <color name="playGreen2">#59FF00</color>
+    <color name="playRed3">#FF0000</color>
+    <color name="playPurple4">#3700FF</color>
+    <color name="trasparent">#00FFFFFF</color>
+</resources>

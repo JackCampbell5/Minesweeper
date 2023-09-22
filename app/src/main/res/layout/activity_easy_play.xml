@@ -1,0 +1,1964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/playBackgroundColor"
+    tools:context=".easyPlay">
+
+    <Button
+        android:id="@+id/block1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/block2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/block3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/block4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/block5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/block6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/block7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/block8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/block9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/block10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="11dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/block9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/block11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/block12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block11"
+        app:layout_constraintTop_toBottomOf="@+id/block2"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block12"
+        app:layout_constraintTop_toBottomOf="@+id/block3"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block13"
+        app:layout_constraintTop_toBottomOf="@+id/block4"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block14"
+        app:layout_constraintTop_toBottomOf="@+id/block5"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block15"
+        app:layout_constraintTop_toBottomOf="@+id/block6"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block16"
+        app:layout_constraintTop_toBottomOf="@+id/block7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/block18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block17"
+        app:layout_constraintTop_toBottomOf="@+id/block8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/block19"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block18"
+        app:layout_constraintTop_toBottomOf="@+id/block9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/block20"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block19"
+        app:layout_constraintTop_toBottomOf="@+id/block10"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block21"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/block22"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block21"
+        app:layout_constraintTop_toBottomOf="@+id/block12"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block23"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block22"
+        app:layout_constraintTop_toBottomOf="@+id/block13"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block23"
+        app:layout_constraintTop_toBottomOf="@+id/block14"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block25"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block24"
+        app:layout_constraintTop_toBottomOf="@+id/block15"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block26"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block25"
+        app:layout_constraintTop_toBottomOf="@+id/block16"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block27"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block26"
+        app:layout_constraintTop_toBottomOf="@+id/block17"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block28"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block27"
+        app:layout_constraintTop_toBottomOf="@+id/block18"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block29"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block28"
+        app:layout_constraintTop_toBottomOf="@+id/block19"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block30"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block29"
+        app:layout_constraintTop_toBottomOf="@+id/block20"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block31"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block21"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block32"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block31"
+        app:layout_constraintTop_toBottomOf="@+id/block22"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block33"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block32"
+        app:layout_constraintTop_toBottomOf="@+id/block23"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block34"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block33"
+        app:layout_constraintTop_toBottomOf="@+id/block24"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block35"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block34"
+        app:layout_constraintTop_toBottomOf="@+id/block25"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block36"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block35"
+        app:layout_constraintTop_toBottomOf="@+id/block26"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block37"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block36"
+        app:layout_constraintTop_toBottomOf="@+id/block27"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block38"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block37"
+        app:layout_constraintTop_toBottomOf="@+id/block28"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block39"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block38"
+        app:layout_constraintTop_toBottomOf="@+id/block29"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block40"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block39"
+        app:layout_constraintTop_toBottomOf="@+id/block30"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block41"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block31"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block42"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block41"
+        app:layout_constraintTop_toBottomOf="@+id/block32"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block43"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block42"
+        app:layout_constraintTop_toBottomOf="@+id/block33"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block44"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block43"
+        app:layout_constraintTop_toBottomOf="@+id/block34"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block45"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block44"
+        app:layout_constraintTop_toBottomOf="@+id/block35"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block46"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block45"
+        app:layout_constraintTop_toBottomOf="@+id/block36"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block47"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block46"
+        app:layout_constraintTop_toBottomOf="@+id/block37"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block48"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block47"
+        app:layout_constraintTop_toBottomOf="@+id/block38"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block49"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block48"
+        app:layout_constraintTop_toBottomOf="@+id/block39"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block50"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block49"
+        app:layout_constraintTop_toBottomOf="@+id/block40"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block51"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block41"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block52"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block51"
+        app:layout_constraintTop_toBottomOf="@+id/block42"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block53"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block52"
+        app:layout_constraintTop_toBottomOf="@+id/block43"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block54"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block53"
+        app:layout_constraintTop_toBottomOf="@+id/block44"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block55"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block54"
+        app:layout_constraintTop_toBottomOf="@+id/block45"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block56"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block55"
+        app:layout_constraintTop_toBottomOf="@+id/block46"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block57"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block56"
+        app:layout_constraintTop_toBottomOf="@+id/block47"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block58"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block57"
+        app:layout_constraintTop_toBottomOf="@+id/block48"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block59"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block58"
+        app:layout_constraintTop_toBottomOf="@+id/block49"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block60"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block59"
+        app:layout_constraintTop_toBottomOf="@+id/block50"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/block61"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block51"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block62"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block61"
+        app:layout_constraintTop_toBottomOf="@+id/block52"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block63"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block62"
+        app:layout_constraintTop_toBottomOf="@+id/block53"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block64"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block63"
+        app:layout_constraintTop_toBottomOf="@+id/block54"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block65"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block64"
+        app:layout_constraintTop_toBottomOf="@+id/block55"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block66"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block65"
+        app:layout_constraintTop_toBottomOf="@+id/block56"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block67"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block66"
+        app:layout_constraintTop_toBottomOf="@+id/block57"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block68"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block67"
+        app:layout_constraintTop_toBottomOf="@+id/block58"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block69"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block68"
+        app:layout_constraintTop_toBottomOf="@+id/block59"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block70"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block69"
+        app:layout_constraintTop_toBottomOf="@+id/block60"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block71"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block61"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block72"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block71"
+        app:layout_constraintTop_toBottomOf="@+id/block62"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block73"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block72"
+        app:layout_constraintTop_toBottomOf="@+id/block63"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block74"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block73"
+        app:layout_constraintTop_toBottomOf="@+id/block64"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block75"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block74"
+        app:layout_constraintTop_toBottomOf="@+id/block65"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block76"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block75"
+        app:layout_constraintTop_toBottomOf="@+id/block66"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block77"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block76"
+        app:layout_constraintTop_toBottomOf="@+id/block67"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block78"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block77"
+        app:layout_constraintTop_toBottomOf="@+id/block68"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block79"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block78"
+        app:layout_constraintTop_toBottomOf="@+id/block69"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block80"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block79"
+        app:layout_constraintTop_toBottomOf="@+id/block70"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block81"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block71"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block82"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block81"
+        app:layout_constraintTop_toBottomOf="@+id/block72"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block83"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block82"
+        app:layout_constraintTop_toBottomOf="@+id/block73"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block84"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block83"
+        app:layout_constraintTop_toBottomOf="@+id/block74"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block85"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block84"
+        app:layout_constraintTop_toBottomOf="@+id/block75"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block86"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block85"
+        app:layout_constraintTop_toBottomOf="@+id/block76"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block87"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block86"
+        app:layout_constraintTop_toBottomOf="@+id/block77"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block88"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block87"
+        app:layout_constraintTop_toBottomOf="@+id/block78"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block89"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block88"
+        app:layout_constraintTop_toBottomOf="@+id/block79"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block90"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block89"
+        app:layout_constraintTop_toBottomOf="@+id/block80"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block91"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block81"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block92"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block91"
+        app:layout_constraintTop_toBottomOf="@+id/block82"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block93"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block92"
+        app:layout_constraintTop_toBottomOf="@+id/block83"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block94"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block93"
+        app:layout_constraintTop_toBottomOf="@+id/block84"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block95"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block94"
+        app:layout_constraintTop_toBottomOf="@+id/block85"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block96"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block95"
+        app:layout_constraintTop_toBottomOf="@+id/block86"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block97"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block96"
+        app:layout_constraintTop_toBottomOf="@+id/block87"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block98"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block97"
+        app:layout_constraintTop_toBottomOf="@+id/block88"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block99"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block98"
+        app:layout_constraintTop_toBottomOf="@+id/block89"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block100"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block99"
+        app:layout_constraintTop_toBottomOf="@+id/block90"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block101"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block91"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block102"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block101"
+        app:layout_constraintTop_toBottomOf="@+id/block92"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block103"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block102"
+        app:layout_constraintTop_toBottomOf="@+id/block93"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block104"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block103"
+        app:layout_constraintTop_toBottomOf="@+id/block94"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block105"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block104"
+        app:layout_constraintTop_toBottomOf="@+id/block95"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block106"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block105"
+        app:layout_constraintTop_toBottomOf="@+id/block96"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block107"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block106"
+        app:layout_constraintTop_toBottomOf="@+id/block97"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block108"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block107"
+        app:layout_constraintTop_toBottomOf="@+id/block98"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block109"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block108"
+        app:layout_constraintTop_toBottomOf="@+id/block99"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block110"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block109"
+        app:layout_constraintTop_toBottomOf="@+id/block100"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block111"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block101"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block112"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block111"
+        app:layout_constraintTop_toBottomOf="@+id/block102"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block113"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block112"
+        app:layout_constraintTop_toBottomOf="@+id/block103"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block114"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block113"
+        app:layout_constraintTop_toBottomOf="@+id/block104"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block115"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block114"
+        app:layout_constraintTop_toBottomOf="@+id/block105"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block116"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block115"
+        app:layout_constraintTop_toBottomOf="@+id/block106"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block117"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block116"
+        app:layout_constraintTop_toBottomOf="@+id/block107"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block118"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block117"
+        app:layout_constraintTop_toBottomOf="@+id/block108"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block119"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block118"
+        app:layout_constraintTop_toBottomOf="@+id/block109"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block120"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block119"
+        app:layout_constraintTop_toBottomOf="@+id/block110"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block121"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block111"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block122"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block121"
+        app:layout_constraintTop_toBottomOf="@+id/block112"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block123"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block122"
+        app:layout_constraintTop_toBottomOf="@+id/block113"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block124"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block123"
+        app:layout_constraintTop_toBottomOf="@+id/block114"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block125"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block124"
+        app:layout_constraintTop_toBottomOf="@+id/block115"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block126"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block125"
+        app:layout_constraintTop_toBottomOf="@+id/block116"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block127"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block126"
+        app:layout_constraintTop_toBottomOf="@+id/block117"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block128"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block127"
+        app:layout_constraintTop_toBottomOf="@+id/block118"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block129"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block128"
+        app:layout_constraintTop_toBottomOf="@+id/block119"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block130"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block129"
+        app:layout_constraintTop_toBottomOf="@+id/block120"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block131"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block121"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block132"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block131"
+        app:layout_constraintTop_toBottomOf="@+id/block122"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block133"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block132"
+        app:layout_constraintTop_toBottomOf="@+id/block123"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block134"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block133"
+        app:layout_constraintTop_toBottomOf="@+id/block124"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block135"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block134"
+        app:layout_constraintTop_toBottomOf="@+id/block125"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block136"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block135"
+        app:layout_constraintTop_toBottomOf="@+id/block126"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block137"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block136"
+        app:layout_constraintTop_toBottomOf="@+id/block127"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block138"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block137"
+        app:layout_constraintTop_toBottomOf="@+id/block128"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block139"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block138"
+        app:layout_constraintTop_toBottomOf="@+id/block129"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block140"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block139"
+        app:layout_constraintTop_toBottomOf="@+id/block130"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block141"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block131"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block142"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block141"
+        app:layout_constraintTop_toBottomOf="@+id/block132"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block143"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block142"
+        app:layout_constraintTop_toBottomOf="@+id/block133"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block144"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block143"
+        app:layout_constraintTop_toBottomOf="@+id/block134"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block145"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block144"
+        app:layout_constraintTop_toBottomOf="@+id/block135"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block146"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block145"
+        app:layout_constraintTop_toBottomOf="@+id/block136"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block147"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block146"
+        app:layout_constraintTop_toBottomOf="@+id/block137"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block148"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block147"
+        app:layout_constraintTop_toBottomOf="@+id/block138"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/block149"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_1"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block148"
+        app:layout_constraintTop_toBottomOf="@+id/block139"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/block150"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/block_Color_2"
+        android:textAllCaps="true"
+        android:textColor="@color/defult_Color"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/block149"
+        app:layout_constraintTop_toBottomOf="@+id/block140"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

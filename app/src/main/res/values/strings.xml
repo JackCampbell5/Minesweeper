@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="home_Welcome_text">Welcome to Minesweeper</string>
+    <string name="home_easy_Start_Button">Easy</string>
+    <string name="alert_Title">You have exploded a BOMB!!!!!</string>
+    <string name="yes">Yes</string>
+    <string name="no">no</string>
+    <string name="winTitle">You have won congrats!!!!</string>
+    <string name="winText">Do you want to play again?</string>
+</resources>
